@@ -1,0 +1,35 @@
+:root {
+    --primary: "Nunito Sans", serif;
+    --secondary: "Merienda", serif;
+    --bs-btn-bg: #be9c79;
+}
+
+.heroSection {
+    background: linear-gradient(90deg, white, transparent 70%), url(./assets/imgs/home-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15rem 0rem;
+}
+h1,
+h2 {
+    font-family: var(--secondary);
+}
+
+a,
+h3,
+p {
+    font-family: var(--primary);
+}
+
+.btn-primary {
+    --bs-btn-bg: #be9c79;
+}
+
+span {
+    color: #be9c79;
+}
+
+i {
+    background-color: #be9c79;
+}
